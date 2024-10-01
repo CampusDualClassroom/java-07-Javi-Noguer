@@ -5,6 +5,8 @@ public class Exercise07 {
 
     public static void main(String[] args) {
 
+        System.out.println("La suma de los n primeros numeros es igual a:" + sumFirstNaturalNumbers(num));
+        System.out.println("Los n primeros numeros son: " + showFirstNaturalNumbers(num));
     }
 
     //TODO ↓
@@ -20,13 +22,21 @@ public class Exercise07 {
     //TODO ↓
     // Que imprima como mensaje la suma de los primeros N números positivos
     public static void sumFirstNaturalNumbers(int num) {
-
+        int i;
+        int suma;
+        for (i = 1; i < num; i++){
+            suma += i;
+        }
     }
 
     //TODO ↓
     // Que imprima por pantalla los N primeros números positivos
     public static void showFirstNaturalNumbers(int num) {
-
+        int i;
+        int suma;
+        for (i = 1; i < num; i++){
+            System.out.println(i);
+        }
     }
 
 }
